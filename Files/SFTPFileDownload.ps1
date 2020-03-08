@@ -1,11 +1,11 @@
 ﻿# **************************************************************************************************************
 # **************************************************************************************************************
 # ** Name:     copy_winpak_files.ps1
-# ** Purpose:  1. Remove all exisitng Win-Pak CSV files in the local directory
+# ** Purpose:  1. Remove all exisitng WP CSV files in the local directory
 # **           2. Run WinScp to download file from SFTP server Workday Win-Pak inbound folder to the local directory and the archive directory
-# **           3. Remove the Win-Pak files from remote directory
+# **           3. Remove the WP files from remote directory
 # **           4. Email concerned parties the result of the file copy operation
-# ** Author:   Mandeep Dhillon
+# ** Author:   M
 # ** Revision: 2019/10/17 - initial version
 # **           2019/??/?? - added ...
 # **************************************************************************************************************
