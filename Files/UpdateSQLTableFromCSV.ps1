@@ -1,10 +1,10 @@
 ﻿# **************************************************************************************************************
 # **************************************************************************************************************
 # ** Name:     update_sql_table_winpak.ps1
-# ** Purpose:  1. Use the file imported by Powershell script copy_winpak_files.ps1 - TEST_Win-Pak.csv
-# **           2. Import the data from TEST_Win-Pak.csv file into SQL seerver Win-Pak database to update dbo.TestCardHolder table
+# ** Purpose:  1. Use the file imported by Powershell script copy_winpak_files.ps1 - TEST_WP.csv
+# **           2. Import the data from TEST_WP.csv file into SQL seerver Win-Pak database to update dbo.TCH table
 # **           4. Email concerned parties the result of the file copy operation
-# ** Author:   Mandeep Dhillon
+# ** Author:   M
 # ** Revision: 2019/12/03 - initial version
 # **           2019/??/?? - added ...
 # **************************************************************************************************************
