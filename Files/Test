@@ -10,3 +10,8 @@ PS Documentation
 
 https://aka.ms/psdocs
 https://powershell.org/
+
+Export get-service as CSV
+Get-Service | Export-Csv -path "C:\services.csv"
+    Filter this list
+    Get-Service | where {$_.Status -eq "Running"} | Export-Csv -path "C:\services.csv"
